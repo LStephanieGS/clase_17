@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+.circulo{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    border-radius: 59%;
+    position: relative;
+    transition-property: scale;
+}
+.circulo:hover{
+    scale: 1.5;
+    transition: 2s;
+    background-color: blueviolet;
+}
