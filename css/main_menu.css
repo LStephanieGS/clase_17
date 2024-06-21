@@ -1,0 +1,12 @@
+/* John Valencia */
+/* Ajuste para que quede igual al GIF */
+a:visited { color: white; }
+
+nav ul li a:hover { color: white; }
+nav ul li a:before {
+  width: 0%;
+  height: 2px;
+  transition: width 0.25s ease-in-out;
+}
+
+nav ul li a:hover::before { width: 100%; }
